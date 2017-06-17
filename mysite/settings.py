@@ -25,7 +25,7 @@ SECRET_KEY = 'k7x7f$w%p&hc1$yn0d6w@g1t^crg4mkhe7zoa1xckg38+_f9v*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'mayafle.pythonanywhere.com']
 
 
 # Application definition
@@ -120,4 +120,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-ALLOWED_HOSTS = ['127.0.0.1', 'mayafle.pythonanywhere.com'] 
